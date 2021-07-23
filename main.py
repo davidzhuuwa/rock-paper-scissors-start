@@ -42,6 +42,8 @@ if player_choice == computer_choice:
   print('It\'s a draw!')
 elif (player_choice == 0 and computer_choice == 1) or (player_choice == 1 and computer_choice == 2) or (player_choice == 2 and computer_choice == 0):
   print('You lose')
+elif player_choice >2 or player_choice <0:
+  print('You chose an invalid number: you lose!')
 else:
   print('You win!')
 
